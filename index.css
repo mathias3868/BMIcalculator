@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+html body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+html body p {
+  line-height: 1.2;
+  font-size: 1.6rem;
+}
+html body .container {
+  max-width: 900px;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .container .wraper {
+  width: 400px;
+  background: #31326f;
+  color: #fff;
+  padding: 0 20px;
+}
+html body .container .wraper h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 40px;
+  padding-top: 30px;
+  text-align: center;
+}
+html body .container .wraper form {
+  padding: 20px 0 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+html body .container .wraper form > * {
+  margin-bottom: 20px;
+}
+html body .container .wraper form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5rem;
+  color: #000;
+  outline: none;
+  border: none;
+}
+html body .container .wraper form button {
+  width: 100%;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background-color: orangered;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+html body .container .wraper .result {
+  padding: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+html body .container .wraper .reset {
+  background: red;
+  width: 80px;
+  display: none;
+  padding: 10px;
+  font-size: 1.5rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin-bottom: 20px;
+}
+html body .container .wraper .loader-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .container .wraper .loader-div .spinner {
+  width: 50px;
+  background: #fff;
+}/*# sourceMappingURL=index.css.map */

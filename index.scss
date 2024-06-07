@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    p {
+      line-height: 1.2;
+      font-size: 1.6rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      height: 100vh;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .wraper {
+        width: 400px;
+        background: #31326f;
+        color: #fff;
+        // text-align: center;
+        padding: 0 20px;
+
+        h1 {
+          font-size: 3rem;
+          font-weight: 600;
+          line-height: 40px;
+          padding-top: 30px;
+          text-align: center;
+        }
+
+        form {
+          padding: 20px 0 0;
+          font-size: 1.5rem;
+          font-weight: 400;
+
+          & > * {
+            margin-bottom: 20px;
+          }
+
+          input {
+            width: 100%;
+            padding: 10px;
+            font-size: 1.5rem;
+            color: #000;
+            outline: none;
+            border: none;
+          }
+
+          button {
+            width: 100%;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            background-color: orangered;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            outline: none;
+          }
+        }
+
+        .result {
+          padding: 10px;
+          font-size: 1.5rem;
+          margin-bottom: 20px;
+          text-transform: capitalize;
+        }
+
+        .reset {
+          background: red;
+          width: 80px;
+          display: none;
+          padding: 10px;
+          font-size: 1.5rem;
+          color: #fff;
+          border: none;
+          outline: none;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .loader-div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .spinner {
+            width: 50px;
+            background: #fff;
+          }
+        }
+      }
+    }
+  }
+}
